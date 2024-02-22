@@ -24,7 +24,7 @@ function digiAPI() {
     digiTitle.innerText = name;
     digiText.innerText = `${""} Digimon do tipo ${level}`
 
-    return find;
+    input.value = "";
   })
 }
 
